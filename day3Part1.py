@@ -1,7 +1,6 @@
 import re
 with open("inputs\inputDay3.txt") as file:
     data = file.read().splitlines()
-
 res = 0
 
 for line in data:
@@ -12,13 +11,3 @@ for line in data:
         print(val1, val2)
         res += int(val1)*int(val2)
 print(res)
-
-
-
-
-
-
-
-
-
-
