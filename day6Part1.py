@@ -1,4 +1,4 @@
-with open("inputs\inputDay.txt") as file:
+with open("inputs\inputDay6.txt") as file:
     data = file.read().splitlines()
 res = 1
 
